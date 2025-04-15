@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    background-color: rgb(228, 228, 228);
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex-container .flex-box {
+    background-color: rgb(211, 230, 255);
+    width: 50%;
+    height: 50%;
+    border: 10px solid rgb(255, 255, 255);
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: auto;
+    gap: auto;
+
+}
+
+.flex-container .flex-box:nth-of-type(5) {
+    width: 100%;
+}
+
+
+.flex-container .flex-box:nth-of-type(1) {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(97, 42, 165);
+}
+
+.flex-container .flex-box:nth-of-type(2) {
+    width: 30%;
+    height: 80%;
+    background-color: chartreuse;
+}
+
+.flex-container .flex-box:nth-of-type(3) {
+    width: 70%;
+    height: 80%;
+    background-color: coral;
+}
+
+.flex-container .flex-box:nth-of-type(4) {
+    width: 100%;
+    height: 10%;
+    background-color: crimson;
+}
+
+
+.flex-container-5 .flex-5 {
+    background-color: rgb(0, 0, 69);
+    color: white;
+    border: 5px solid rgb(228, 228, 228);
+    margin: auto;
+    gap: auto;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+}
+
+.flex-container-5 .flex-5:nth-of-type(1) {
+    width: 50%;
+    height: 50%;
+}
+
+.flex-container-5 .flex-5:nth-of-type(2) {
+    width: 50%;
+    height: 50%;
+}
+
+.flex-container-5 {
+    background-color: rgb(228, 228, 228);
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: auto;
+}
+
+.flex-container-6 {
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: auto;
+}
+
+.flex-container-6 .flex-head {
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+    color: azure;
+    width: 100%;
+    height: 20%;
+}
+
+.flex-container-6 .flex-head h2 {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.flex-head a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.flex-head .box6-postion {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.flex-container-6 .flex-body1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.flex-body1 h3 {
+    padding-bottom: 20px;
+    color: rgb(35, 35, 35);
+}
+
+.flex-body1 p {
+    padding-bottom: 20px;
+    color: rgb(35, 35, 35);
+    opacity: 0.7;
+}
+
+.flex-body1 a {
+    text-decoration: none;
+    color: azure;
+}
+
+.flex-body1 button {
+    color: azure;
+    background-color: rgb(35, 35, 35);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.flex-container-6 .flex-body2 {
+    text-align: center;
+    background-color: white;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-body2 .body2-box a {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: solid black;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    border: none;
+    background-color: gray;
+    color: azure;
+    text-decoration: none;
+}
+
+.flex-body2 .title-6 {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 20%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-body2 .project a {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+    border: none;
+    color: gray;
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+}
+
+.flex-container-6 .foot {
+    color: rgb(76, 76, 76);
+    padding: 30px 30px;
+}
+
+.container-7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    position: relative;
+}
+
+.container-7 .box-7 {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    width: 33%;
+    height: 25%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box-7:nth-of-type(1) {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.box-7:nth-of-type(1) img {
+    width: 100%;
+
+}
+
+.box-7:nth-of-type(1) h1 {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    font-size: 500px;
+
+}
+
+.box-7:nth-of-type(1) .title {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    font-size: 200px;
+
+}
+
+.box-7:nth-of-type(1) a {
+    text-decoration: none;
+    color: azure;
+}
+
+.container-7 .box-7 h2 {
+    position: absolute;
+    bottom: 20%;
+    left: 10px;
+    font-size: 500%;
+}
+.container-7 .box-7 a{
+    text-decoration: none;
+    color: azure;
+}
+.container-7 .box-7 div{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    font-size: 200%;
+}
+.container-7 .box-7 li{
+    list-style: none;
+    margin: auto;
+}
+.container-7 .box-7 button{
+    background-color: red;
+    border: none;
+    line-height: 100px;
+    line-break: auto;
+    width: 1200px;
+    font-size: 200%;
+    margin: auto;
+}
